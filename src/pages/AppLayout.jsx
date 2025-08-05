@@ -1,10 +1,13 @@
 // import React from 'react';
 
+import AppNav from "../components/AppNav.jsx";
+
 function AppLayout() {
     return (
-        <nav>
-            App Layout
-        </nav>
+        <div>
+            <AppNav/>
+            <p>App</p>
+        </div>
     );
 }
 
