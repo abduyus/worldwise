@@ -32,6 +32,7 @@ function App() {
       }
     }
     fetchCities();
+    //   hello
   }, []);
   return (
     <BrowserRouter>
