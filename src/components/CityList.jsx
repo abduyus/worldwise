@@ -6,8 +6,8 @@ import Message from "./Message.jsx";
 import { useCities } from "../contexts/CitiesContext.jsx";
 
 function CityList() {
-  const { cities, isLoading } = useCities();
-  if (isLoading) return <Spinner />;
+  const { cities, isLoadingCities } = useCities();
+  if (isLoadingCities) return <Spinner />;
 
   if (!cities.length)
     return (
