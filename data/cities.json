@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -37,53 +25,16 @@
       "id": "98443197"
     },
     {
-      "id": "8485",
-      "cityName": "Vilafames",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-08-12T11:07:04.197Z",
-      "notes": "heh",
+      "id": "53e6",
+      "cityName": "Islamabad",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2025-08-13T10:19:32.453Z",
+      "notes": "it was very nice and green",
       "position": {
-        "lat": "40.12009038025332",
-        "lng": "-0.018196105957031253"
-      }
-    },
-    {
-      "id": "51cf",
-      "cityName": "Cabanes",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-08-12T11:09:02.657Z",
-      "notes": "jajaj",
-      "position": {
-        "lat": "40.08476993619861",
-        "lng": "0.07209777832031251"
-      }
-    },
-    {
-      "id": "92a5",
-      "cityName": "Brezina",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-08-12T11:13:30.255Z",
-      "notes": "",
-      "position": {
-        "lat": "33.02708758002874",
-        "lng": "1.4282226562500002"
-      }
-    },
-    {
-      "id": "f0d7",
-      "cityName": "Hassi Gara",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-08-12T11:13:30.255Z",
-      "notes": "",
-      "position": {
-        "lat": "29.19053283229458",
-        "lng": "2.79052734375"
+        "lat": "33.69777960571757",
+        "lng": "73.05564880371095"
       }
     }
-
   ]
 }
