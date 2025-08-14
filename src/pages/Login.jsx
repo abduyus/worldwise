@@ -4,7 +4,6 @@ import PageNav from "../components/PageNav.jsx";
 import { useAuth } from "../contexts/FakeAuthContext.jsx";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button.jsx";
-import { testReactVersion } from "eslint-plugin-react/lib/util/version.js";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
