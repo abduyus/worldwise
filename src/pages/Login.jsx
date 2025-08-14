@@ -4,6 +4,7 @@ import PageNav from "../components/PageNav.jsx";
 import { useAuth } from "../contexts/FakeAuthContext.jsx";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button.jsx";
+import { testReactVersion } from "eslint-plugin-react/lib/util/version.js";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -14,7 +15,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/app");
+    if (isAuthenticated) navigate("/app", { replace: true });
   }, [isAuthenticated, navigate]);
 
   function handleLogin(e) {
